@@ -1,0 +1,16 @@
+/*-------------------------------------------*\
+|                       $LAYOUT                          |
+\*-------------------------------------------*/
+
+section{
+  @include max-width;
+  @include respond-to(800px){
+    background-color: $colorSecondary;
+  };
+  background-color: $colorLightgrey;
+  padding: $paddingBase;
+}
+.container{
+  @include max-width(80%);
+  background-color: $colorBrand;
+}

@@ -1,0 +1,38 @@
+/*-------------------------------------------*\
+|                       $COLORS                          |
+\*-------------------------------------------*/
+
+/**
+*Branding Colors
+*/
+
+$colorBrand: #ea83ee;
+$colorSecondary: rgb(219, 216, 121);
+$colorGrey: #737373;
+
+$colorBlack: rgb(0,  0, 0);
+$colorDarkgrey: darken($colorGrey, 25%);
+$colorLightgrey: lighten($colorGrey, 25%);
+$colorWhite: rgb(255, 255, 255);
+
+//Texturas
+$colorAlert: rgb(252, 228, 207);
+$colorError: rgb(218, 79, 73);
+$colorInvert: invert($colorError);
+$colorInfo: rgb(66, 184, 221);
+$colorSuccess: rgb(91, 183, 91);
+
+//Tipografia
+$baseFont: 'Quicksand', sans-serif;
+$baseFontSize: 16px;
+$font-weights: normal bold italic;
+
+//Botonos
+$buttonColor: $colorWhite;
+$buttonBackgroundColor: $colorBrand;
+$buttonFontSize: $baseFontSize * 1.5;
+
+//Constantes
+$borderRadis: 3px;
+$paddingBase: 24px;
+$pageMaxWidth: 800px;

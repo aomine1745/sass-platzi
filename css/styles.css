@@ -1,0 +1,102 @@
+/*-------------------------------------------*\
+|                       $COLORS                          |
+\*-------------------------------------------*/
+/**
+*Branding Colors
+*/
+/*-------------------------------------------*\
+|                       $MIXINS                          |
+\*-------------------------------------------*/
+/*-------------------------------------------*\
+|                       $FUNCTIONS                   |
+\*-------------------------------------------*/
+.normal {
+  font-weight: normal; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-weight: italic; }
+
+.classs-1:before {
+  content: "1"; }
+
+.classs-2:before {
+  content: "2"; }
+
+.classs-3:before {
+  content: "3"; }
+
+.classs-4:before {
+  content: "4"; }
+
+.title {
+  color: #000; }
+
+.title {
+  color: #fff; }
+
+/*-------------------------------------------*\
+|                       $TABLAS                     |
+\*-------------------------------------------*/
+table tr:hover {
+  background-color: #dbd879; }
+
+/*-------------------------------------------*\
+|                       $BUTTONS                       |
+\*-------------------------------------------*/
+.btn--info, .btn--success {
+  display: inline-block;
+  color: white;
+  background-color: #ea83ee;
+  line-height: 1.5;
+  border-radius: 3px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  .btn__icon.btn--info, .btn__icon.btn--success {
+    font-size: .6em; }
+
+.btn--info {
+  background-color: #42b8dd; }
+
+.btn--success {
+  background-color: #5bb75b; }
+
+/*-------------------------------------------*\
+|                       $LINKS                             |
+\*-------------------------------------------*/
+/*-------------------------------------------*\
+|                       $FONTS                            |
+\*-------------------------------------------*/
+p {
+  font-size: 16x; }
+
+/*-------------------------------------------*\
+|                       $GRIDS                             |
+\*-------------------------------------------*/
+/*-------------------------------------------*\
+|                       $LAYOUT                          |
+\*-------------------------------------------*/
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b3b3b3;
+  padding: 24px; }
+  @media only screen and (min-width: 800px) {
+    section {
+      background-color: #dbd879; } }
+
+.container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ea83ee; }
+
+/*-------------------------------------------*\
+|                       $UTILITIES                     |
+\*-------------------------------------------*/

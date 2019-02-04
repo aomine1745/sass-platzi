@@ -1,0 +1,58 @@
+/*-------------------------------------------*\
+|                       $FUNCTIONS                   |
+\*-------------------------------------------*/
+
+//Funciones
+@function suma($numer-uno, $numero-dos){
+  @return $numero-uno + $numero-dos;
+}
+
+//Arrays
+$fs:(
+  big: 24px,
+  normal: 16x,
+  small: 14px,
+  x-small: 12px
+);
+
+$zindex:(
+  zindexd-ropdown: 100,
+  zindex-sticky:120, 
+	zindex-modal:140, 
+	zindex-overlay:160,
+	zindex-tooltip:180
+);
+
+//Directiva Each
+@each $font in ($font-weights){
+  .#{$font}{
+    font-weight: $font;
+  }
+}
+
+//For Each
+@for $i  from 1 to 5{
+  .classs-#{$i}{
+    &:before{
+      content: "#{$i}";
+    }
+  }
+}
+
+//if
+.title{
+  color: #000;
+}
+
+$bg-color: #000;
+
+@if $bg-color == #000{
+  .title{
+    color: #fff;
+  }
+}
+@else{
+  .title{
+    color: #262626;
+  }
+}
