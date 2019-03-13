@@ -10,18 +10,18 @@
 //Arrays
 $fs:(
   big: 24px,
-  normal: 16x,
+  normal: 16px,
   small: 14px,
   x-small: 12px
-);
+  );
 
 $zindex:(
   zindexd-ropdown: 100,
   zindex-sticky:120, 
-	zindex-modal:140, 
-	zindex-overlay:160,
-	zindex-tooltip:180
-);
+  zindex-modal:140, 
+  zindex-overlay:160,
+  zindex-tooltip:180
+  );
 
 //Directiva Each
 @each $font in ($font-weights){

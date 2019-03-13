@@ -11,37 +11,47 @@
 |                       $FUNCTIONS                   |
 \*-------------------------------------------*/
 .normal {
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .bold {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .italic {
-  font-weight: italic; }
+  font-weight: italic;
+}
 
 .classs-1:before {
-  content: "1"; }
+  content: "1";
+}
 
 .classs-2:before {
-  content: "2"; }
+  content: "2";
+}
 
 .classs-3:before {
-  content: "3"; }
+  content: "3";
+}
 
 .classs-4:before {
-  content: "4"; }
+  content: "4";
+}
 
 .title {
-  color: #000; }
+  color: #000;
+}
 
 .title {
-  color: #fff; }
+  color: #fff;
+}
 
 /*-------------------------------------------*\
 |                       $TABLAS                     |
 \*-------------------------------------------*/
 table tr:hover {
-  background-color: #dbd879; }
+  background-color: #dbd879;
+}
 
 /*-------------------------------------------*\
 |                       $BUTTONS                       |
@@ -56,15 +66,20 @@ table tr:hover {
   cursor: pointer;
   outline: none;
   border: none;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
-  .btn__icon.btn--info, .btn__icon.btn--success {
-    font-size: .6em; }
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn__icon.btn--info, .btn__icon.btn--success {
+  font-size: .6em;
+}
 
 .btn--info {
-  background-color: #42b8dd; }
+  background-color: #42b8dd;
+}
 
 .btn--success {
-  background-color: #5bb75b; }
+  background-color: #5bb75b;
+}
 
 /*-------------------------------------------*\
 |                       $LINKS                             |
@@ -73,7 +88,8 @@ table tr:hover {
 |                       $FONTS                            |
 \*-------------------------------------------*/
 p {
-  font-size: 16x; }
+  font-size: 16px;
+}
 
 /*-------------------------------------------*\
 |                       $GRIDS                             |
@@ -86,16 +102,21 @@ section {
   margin-left: auto;
   margin-right: auto;
   background-color: #b3b3b3;
-  padding: 24px; }
-  @media only screen and (min-width: 800px) {
-    section {
-      background-color: #dbd879; } }
+  padding: 24px;
+}
+
+@media only screen and (min-width: 800px) {
+  section {
+    background-color: #dbd879;
+  }
+}
 
 .container {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ea83ee; }
+  background-color: #ea83ee;
+}
 
 /*-------------------------------------------*\
 |                       $UTILITIES                     |
